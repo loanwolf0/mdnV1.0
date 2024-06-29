@@ -1,7 +1,13 @@
+import Home from "./pages/Home/Home";
+import { Routes, Route } from "react-router-dom";
+
 function App() {
   return (
+    // Import Only Pages, For components => import then to a page then use that page here.
     <div>
-      <h1 className="text-3xl font-bold underline">Hello Abhay!</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }
