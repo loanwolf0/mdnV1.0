@@ -41,7 +41,7 @@ const Navbar = () => {
   const [mobileNav, setMobileNav] = useState("hidden");
   return (
     <>
-      <nav className="gold-head relative flex bg-zinc-800  px-5 py-2 items-center justify-between z-50">
+      <nav className="gold-head relative flex bg-zinc-800  px-5 py-2 items-center justify-between ">
         <div className="flex items-center  gap-2">
           <img className="h-20 w-auto" src={MDN_LOGO} alt="logo" />
           <h1 className="text-2xl font-semibold">
