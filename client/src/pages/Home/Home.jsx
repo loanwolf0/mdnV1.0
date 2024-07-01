@@ -9,7 +9,6 @@ import ProductGrid from "../../components/Products/ProductGrid";
 const Home = () => {
   return (
     <div className="bg-zinc-900">
-      <Navbar />
       <Slider />
       <ShowOff />
       <AboutUs />
