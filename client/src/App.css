@@ -11,3 +11,8 @@
 .gold-head {
   color: #d4d2ba;
 }
+
+.custom-strikethrough {
+  text-decoration: line-through;
+  text-decoration-color: #3b82f6; /* Change to your desired color */
+}
