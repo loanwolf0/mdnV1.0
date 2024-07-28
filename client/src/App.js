@@ -8,6 +8,7 @@ import auth, { authActions } from "./store/auth";
 import "./App.css";
 import Dashboard from "./pages/Dashboarrd/Dashboard";
 import Table from "./components/Dashboard/Table";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   const dispatch = useDispatch();
@@ -169,6 +170,7 @@ function App() {
   return (
     // Import Only Pages, For components => import then to a page then use that page here.
     <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signUp" element={<SignUp />} />
