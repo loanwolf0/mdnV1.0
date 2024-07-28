@@ -8,6 +8,7 @@ import auth, { authActions } from "./store/auth";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./pages/About/About";
+import Product from "./pages/Products/Product";
 
 function App() {
   const dispatch = useDispatch();
@@ -33,6 +34,7 @@ function App() {
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Product />} />
       </Routes>
     </div>
   );

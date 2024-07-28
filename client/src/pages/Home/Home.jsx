@@ -5,6 +5,7 @@ import ShowOff from "../../components/ShowOff/ShowOff";
 import AboutUs from "../../components/Home/AboutUs";
 import AboutUs2 from "../../components/Home/AboutUs2";
 import ProductGrid from "../../components/Products/ProductGrid";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <AboutUs />
       <AboutUs2 />
       <ProductGrid />
+      <Footer />
     </div>
   );
 };
