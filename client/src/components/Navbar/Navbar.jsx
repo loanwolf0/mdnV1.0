@@ -133,7 +133,7 @@ const Navbar = () => {
                     </span>
                   </Link>
                   <Link
-                    to="/progile"
+                    to="/dashboard"
                     className="px-2 py-1 text-2xl hover:text-blue-500 transition-all duration-30"
                   >
                     <FaRegUser />

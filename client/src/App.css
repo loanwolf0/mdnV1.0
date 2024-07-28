@@ -16,3 +16,48 @@
   text-decoration: line-through;
   text-decoration-color: #3b82f6; /* Change to your desired color */
 }
+
+.pagination-container {
+  /* Add your custom styles here */
+}
+
+.pagination_text {
+  /* Add your custom styles here */
+}
+
+.pagination_data {
+  /* Add your custom styles here */
+}
+
+.pagination-prev-btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pagination-prev-btn.disabled-radio {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.custom-pages {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-pages.active-page {
+  background-color: #007bff;
+  color: white;
+}
+
+.no_data_found {
+  /* Add your custom styles here */
+}
+
+.no_data_found img {
+  width: 150px;
+  height: auto;
+}
